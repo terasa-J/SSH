@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nextu.dao.ClientsCommentsReturnMapper">
+  <resultMap id="BaseResultMap" type="com.nextu.model.ClientsCommentsReturn">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="client_comment_return_id" jdbcType="BIGINT" property="clientCommentReturnId" />
+    <result column="client_number" jdbcType="VARCHAR" property="clientNumber" />
+    <result column="client_comment_id" jdbcType="BIGINT" property="clientCommentId" />
+    <result column="return_content" jdbcType="VARCHAR" property="returnContent" />
+    <result column="return_comment_date" jdbcType="DATE" property="returnCommentDate" />
+  </resultMap>
+</mapper>

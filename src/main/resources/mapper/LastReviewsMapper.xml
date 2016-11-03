@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nextu.dao.LastReviewsMapper">
+  <resultMap id="BaseResultMap" type="com.nextu.model.LastReviews">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="last_review_id" jdbcType="BIGINT" property="lastReviewId" />
+    <result column="last_review_number" jdbcType="BIGINT" property="lastReviewNumber" />
+    <result column="theme" jdbcType="VARCHAR" property="theme" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="upload_date" jdbcType="TIMESTAMP" property="uploadDate" />
+    <result column="download_time" jdbcType="BIGINT" property="downloadTime" />
+  </resultMap>
+</mapper>

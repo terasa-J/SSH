@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nextu.dao.VideosMapper">
+  <resultMap id="BaseResultMap" type="com.nextu.model.Videos">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="video_id" jdbcType="BIGINT" property="videoId" />
+    <result column="video_number" jdbcType="BIGINT" property="videoNumber" />
+    <result column="theme" jdbcType="VARCHAR" property="theme" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="upload_date" jdbcType="TIMESTAMP" property="uploadDate" />
+    <result column="download_time" jdbcType="BIGINT" property="downloadTime" />
+  </resultMap>
+</mapper>

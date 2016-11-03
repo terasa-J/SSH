@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nextu.dao.ClientsCollectionsReviewsMapper">
+  <resultMap id="BaseResultMap" type="com.nextu.model.ClientsCollectionsReviews">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="client_collection_review_id" jdbcType="BIGINT" property="clientCollectionReviewId" />
+    <result column="client_number" jdbcType="VARCHAR" property="clientNumber" />
+    <result column="last_review_number" jdbcType="BIGINT" property="lastReviewNumber" />
+  </resultMap>
+</mapper>

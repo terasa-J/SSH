@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nextu.dao.ClientsCollectionsVideosMapper">
+  <resultMap id="BaseResultMap" type="com.nextu.model.ClientsCollectionsVideos">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="client_collection_video_id" jdbcType="BIGINT" property="clientCollectionVideoId" />
+    <result column="client_number" jdbcType="VARCHAR" property="clientNumber" />
+    <result column="video_number" jdbcType="BIGINT" property="videoNumber" />
+  </resultMap>
+</mapper>
